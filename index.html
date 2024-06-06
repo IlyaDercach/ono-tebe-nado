@@ -12,26 +12,30 @@
   <body>
 		<div class="container">
 			<header class="header">
-				<div class="header__up">
-					<nav class="nav header__nav">
-						<ul class="nav__list">
-							<li class="nav__item active">главная</li>
-							<li class="nav__item">посмотреть лоты</li>
-							<li class="nav__item">об аукционе</li>
-						</ul>
-					</nav>
-					<div class="header__logo">
-						<img src="images/logo-black.svg" alt="header_logo">
-					</div>
-					<div class="contacts header__contacts">
-						<span class="contacts__item contacts_text_style">+9 999 555 5555</span>
-						<span class="contacts__item contacts_text_style">info@sobaka.ge</span>
-						<span class="contacts__item contacts_text_style_wrap">наб. Принсенграхт 263- 265, Амстердам</span>
-					</div>
-				</div>
-				<div class="header__main"></div>
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__item nav_item_active"><a href="#">главная</a></li>
+						<li class="nav__item"><a href="#">посмотреть лоты</a></li>
+						<li class="nav__item"><a href="#">об аукционе</a></li>
+					</ul>
+				</nav>
+				<article class="header__logo">
+					<a href="#"><img class="logo" src="images/logo-black.svg" alt="header_logo"></a>
+				</article>
+				<ul class="contacts header__contacts">
+					<li class="contacts__item contacts_text_style"><a href="#">+9 999 555 5555</a></li>
+					<li class="contacts__item contacts_text_style"><a href="#">info@sobaka.ge</a></li>
+					<li class="contacts__item contacts_text_style_wrap">наб. Принсенграхт 263- 265, Амстердам</li>
+				</ul>
 			</header>
+
+			<main class="main">
+				<section class="jambotron"></section>
+				<section class="lots"></section>
+				<section class="about"></section>
+			</main>
+
+			<footer class="footer"></footer>
 		</div>
-		
 	</body>
 </html>
