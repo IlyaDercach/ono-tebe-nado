@@ -158,6 +158,10 @@
 	letter-spacing: 0.3em;
 }
 
+.cover_letter-formatting_zero {
+	letter-spacing: 0;
+}
+
 .cover__title-elem-second {
 	justify-self: center;
 	align-self: center;
@@ -167,7 +171,6 @@
 	justify-self: end;
 	padding-top: 5px;
 	display: flex;
-	margin-right: -30px;
 }
 
 .cover__footer {
