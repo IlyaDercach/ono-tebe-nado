@@ -3,7 +3,7 @@
 }
 
 .title {
-	font-family: Raleway, sans-serif;
+	font-family: Raleway, 'Arial', sans-serif;
 	font-size: 100px;
 	font-weight: 700;
 	line-height: 115%;
@@ -15,7 +15,7 @@
 }
 
 .title-h2 {
-	font-family: Raleway, sans-serif;
+	font-family: Raleway, 'Arial', sans-serif;
 	font-size: 40px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -25,7 +25,7 @@
 }
 
 .title-h3 {
-	font-family: Raleway, sans-serif;
+	font-family: Raleway, 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 120%;
@@ -38,7 +38,7 @@
 }
 
 .text-p{
-	font-family: Raleway, sans-serif;
+	font-family: Raleway, 'Arial', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 120%;
@@ -48,7 +48,7 @@
 }
 
 .text-a {
-	font-family: Raleway, sans-serif;
+	font-family: Raleway, 'Arial', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
 	color: #000;
